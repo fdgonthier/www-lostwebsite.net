@@ -1,5 +1,5 @@
 # hostname (and path) to the root eg. http://spf13.com/
-baseurl = "http://www.lostwebsite.net"
+baseurl = "http://lostwebsite.net/"
 
 # Site title
 title = "François-Denis Gonthier"
