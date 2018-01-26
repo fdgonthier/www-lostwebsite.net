@@ -5,13 +5,7 @@
   </header>
   {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
   {{ range $paginator.Pages }}
-  <div class="container content">
-    {{ if .Description }}
-    {{ .Description }}
-    {{ else }}
-    {{ .Content }}
-    {{ end }}
-  </div>
+    {{ .Render "summary" }}
   {{ end }}
   {{ partial "bloc/content/pagination" . }}
 </section>

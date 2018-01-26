@@ -33,8 +33,8 @@ paginatePath = "page"
     topic = "topics"
 
 [author]
-    name = "yourname"
-    email = "yourname@example.com"
+    name = "François-Denis Gonthier"
+    email = "fdgonthier@lostwebsite.net "
 
 #
 # All parameters below here are optional and can be mixed and matched.
@@ -58,7 +58,7 @@ paginatePath = "page"
     highlight = "default"
 
     # Google Analytics.
-    googleAnalytics = "Your Google Analytics tracking code"
+    googleAnalytics = "UA-113165143-1"
 
     # Sidebar social links.
     github = "enten/hugo-boilerplate" # Your Github profile ID
